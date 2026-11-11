@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="t d">
+  <title id="t">devteam-local</title>
+  <desc id="d">A 100% local AI dev team on Apple Silicon: spec, enforced TDD batches, live board, human merge</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.55" stop-color="#1b2550"/>
+      <stop offset="1" stop-color="#2b1a3d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f59e0b"/>
+      <stop offset="0.35" stop-color="#ff5f6d"/>
+      <stop offset="0.7" stop-color="#2ee59d"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.04"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#7f8bb3"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#grid)"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="64" y="112" font-size="58" font-weight="700" fill="#ffffff">devteam-local</text>
+    <rect x="66" y="132" width="250" height="5" rx="2.5" fill="url(#accent)"/>
+    <text x="64" y="180" font-size="24" fill="#d3d9ee">A 100% local AI dev team on Apple Silicon.</text>
+    <text x="64" y="214" font-size="24" fill="#d3d9ee">Specs in, tested commits out. You merge.</text>
+    <text x="64" y="268" font-size="15" fill="#8a94bd" letter-spacing="2">SPEC KIT · LANGGRAPH · OPENCODE · LM STUDIO · LITELLM · NO CLOUD</text>
+  </g>
+  <!-- pipeline -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">
+    <g transform="translate(760 70)">
+      <rect x="-70" y="-26" width="140" height="52" rx="12" fill="#f59e0b" fill-opacity="0.14" stroke="#f59e0b" stroke-opacity="0.8"/>
+      <text y="-2" fill="#fcd34d">SPEC</text>
+      <text y="16" font-size="11" font-weight="500" fill="#c9b27a">spec · plan · tasks</text>
+    </g>
+    <path d="M 835 70 L 905 70" stroke="#7f8bb3" stroke-width="2" marker-end="url(#arrow)"/>
+    <g transform="translate(990 70)">
+      <rect x="-80" y="-26" width="160" height="52" rx="12" fill="#ff5f6d" fill-opacity="0.12" stroke="#ff5f6d" stroke-opacity="0.8"/>
+      <text x="-30" y="-2" fill="#ff8a94">RED</text>
+      <text x="4" y="-2" fill="#7f8bb3">→</text>
+      <text x="40" y="-2" fill="#5ff0b5">GREEN</text>
+      <text y="16" font-size="11" font-weight="500" fill="#b7a3b8">batches of 5 · barriers</text>
+    </g>
+    <path d="M 990 100 L 990 140" stroke="#7f8bb3" stroke-width="2" marker-end="url(#arrow)"/>
+    <g transform="translate(990 172)">
+      <rect x="-80" y="-26" width="160" height="52" rx="12" fill="#22d3ee" fill-opacity="0.12" stroke="#22d3ee" stroke-opacity="0.8"/>
+      <text y="-2" fill="#67e8f9">LIVE BOARD</text>
+      <text y="16" font-size="11" font-weight="500" fill="#8bb8c4">localhost:3100</text>
+    </g>
+    <path d="M 905 172 L 835 172" stroke="#7f8bb3" stroke-width="2" marker-end="url(#arrow)"/>
+    <g transform="translate(760 172)">
+      <rect x="-70" y="-26" width="140" height="52" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.45"/>
+      <text y="-2" fill="#ffffff">HUMAN</text>
+      <text y="16" font-size="11" font-weight="500" fill="#b9bfd6">review · merge · push</text>
+    </g>
+    <g transform="translate(905 252)">
+      <rect x="-150" y="-18" width="300" height="36" rx="18" fill="#2ee59d" fill-opacity="0.10" stroke="#2ee59d" stroke-opacity="0.5"/>
+      <text y="5" font-size="12" fill="#5ff0b5">all models on this Mac · zero cloud calls</text>
+    </g>
+  </g>
+</svg>
